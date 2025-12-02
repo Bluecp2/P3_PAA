@@ -153,3 +153,36 @@ void imprimeMetrica(RedeSocial *rede, char *nomeArquivo){
     fclose(arquivo);
 }
 
+RedeSocial* carregarRedeDeArquivo(char *nomeArquivo) {
+    FILE *arquivo = fopen(nomeArquivo, "r");
+    if (arquivo == NULL) {
+        printf("Erro: Nao foi possivel abrir o arquivo '%s'.\n", nomeArquivo);
+        return NULL;
+    }
+  
+    int qtdPessoas;
+    fscanf(arquivo, "%d", &qtdPessoas); 
+    RedeSocial *rede = criarRede(qtdPessoas, qtdPessoas * 2);
+
+    char nomeTemp[100];
+    int idadeTemp;
+
+    for (int i = 0; i < qtdPessoas; i++) {
+        fscanf(arquivo, "%s %d", nomeTemp, &idadeTemp);
+        adicionarPessoa(rede, nomeTemp, idadeTemp);
+    }
+
+    int qtdArestas;
+    fscanf(arquivo, "%d", &qtdArestas); 
+
+    int origem, destino;
+    float peso;
+
+    for (int i = 0; i < qtdArestas; i++) {
+        fscanf(arquivo, "%d %d %f", &origem, &destino, &peso);
+        adicionarInfluencia(rede, origem, destino, peso);
+    }
+
+    fclose(arquivo);
+    return rede;
+}

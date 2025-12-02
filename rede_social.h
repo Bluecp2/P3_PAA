@@ -33,4 +33,5 @@ void adicionarInfluencia(RedeSocial *rede,int idOrigem, int idDestino, float pes
 
 void calculaMetrica(RedeSocial *rede);
 void imprimeMetrica(RedeSocial *rede, char *nomeArquivo);
+RedeSocial* carregarRedeDeArquivo(char *nomeArquivo);
 #endif
