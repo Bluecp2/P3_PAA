@@ -1,2 +1,2 @@
 # P3_PAA
-estudo para prova de paa
+Lista de influencia em grafos usando matriz esparsa

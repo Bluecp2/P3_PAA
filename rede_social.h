@@ -32,5 +32,5 @@ void adicionarPessoa(RedeSocial *rede, char *nome, int idade);
 void adicionarInfluencia(RedeSocial *rede,int idOrigem, int idDestino, float peso);
 
 void calculaMetrica(RedeSocial *rede);
-void imprimeMetrica(RedeSocial *rede);
+void imprimeMetrica(RedeSocial *rede, char *nomeArquivo);
 #endif
