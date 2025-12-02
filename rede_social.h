@@ -5,7 +5,6 @@
 #include<stdlib.h>
 #include<string.h>
 
-
 typedef struct{
     int id, idade;
     char nome[100];
@@ -15,7 +14,7 @@ typedef struct{
 }Pessoa;
 
 typedef struct {
-    int conexao;// quem influencia
+    int origem;// quem influencia
     int destino;//quem e influenciado
     float peso;
 }Conexao;
@@ -27,4 +26,11 @@ typedef struct{
     Conexao *matriz;
 } RedeSocial;
 
+RedeSocial* criaRede(int maxPessoas, int maxConexoes);
+void apagarRede(RedeSocial *rede);
+void adicionarPessoa(RedeSocial *rede, char *nome, int idade);
+void adicionarInfluencia(RedeSocial *rede,int idOrigem, int idDestino, float peso);
+
+void calculaMetrica(RedeSocial *rede);
+void imprimeMetrica(RedeSocial *rede);
 #endif
