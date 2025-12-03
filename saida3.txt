@@ -1,0 +1,19 @@
+=== RELATORIO DE INFLUENCIA ===
+
+1. NoA (Score influencia: 3.36) (Score influenciado: 3.36)
+2. NoB (Score influencia: 3.36) (Score influenciado: 3.36)
+3. NoC (Score influencia: 3.36) (Score influenciado: 3.36)
+4. NoD (Score influencia: 3.36) (Score influenciado: 3.36)
+5. NoE (Score influencia: 3.36) (Score influenciado: 3.36)
+6. NoF (Score influencia: 3.36) (Score influenciado: 3.36)
+7. NoG (Score influencia: 3.36) (Score influenciado: 3.36)
+8. NoH (Score influencia: 3.36) (Score influenciado: 3.36)
+9. NoI (Score influencia: 3.36) (Score influenciado: 3.36)
+10. NoJ (Score influencia: 3.36) (Score influenciado: 3.36)
+--- TOP 3 MAIS INFLUENTES ---
+1. NoA (Score: 3.36)
+2. NoB (Score: 3.36)
+3. NoC (Score: 3.36)
+
+--- PESSOA MENOS INFLUENCIAVEL ---
+Nome: NoA (Score Recebido: 3.36)

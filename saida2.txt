@@ -1,0 +1,19 @@
+=== RELATORIO DE INFLUENCIA ===
+
+1. LiderA (Score influencia: 6.52) (Score influenciado: 0.00)
+2. LiderB (Score influencia: 6.52) (Score influenciado: 0.00)
+3. Seguidor1 (Score influencia: 0.10) (Score influenciado: 1.90)
+4. Seguidor3 (Score influencia: 0.10) (Score influenciado: 1.70)
+5. Seguidor5 (Score influencia: 0.10) (Score influenciado: 1.50)
+6. Seguidor7 (Score influencia: 0.10) (Score influenciado: 1.30)
+7. Seguidor2 (Score influencia: 0.00) (Score influenciado: 2.09)
+8. Seguidor4 (Score influencia: 0.00) (Score influenciado: 1.87)
+9. Seguidor6 (Score influencia: 0.00) (Score influenciado: 1.65)
+10. Seguidor8 (Score influencia: 0.00) (Score influenciado: 1.43)
+--- TOP 3 MAIS INFLUENTES ---
+1. LiderA (Score: 6.52)
+2. LiderB (Score: 6.52)
+3. Seguidor1 (Score: 0.10)
+
+--- PESSOA MENOS INFLUENCIAVEL ---
+Nome: LiderA (Score Recebido: 0.00)

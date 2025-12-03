@@ -125,10 +125,10 @@ void imprimeMetrica(RedeSocial *rede, char *nomeArquivo){
     Pessoa *cop = (Pessoa*)malloc(rede->qtdPessoas * sizeof(Pessoa));
     memcpy(cop, rede->pessoas, rede->qtdPessoas * sizeof(Pessoa));
     qsort(cop, rede->qtdPessoas, sizeof(Pessoa), compara);
-
+    
     fprintf(arquivo, "=== RELATORIO DE INFLUENCIA ===\n\n");
     for (int i = 0; i < rede->qtdPessoas; i++){
-        fprintf(arquivo,"%d. %s (Score: %.2f)\n", i+1, cop[i].nome, cop[i].influencia);
+        fprintf(arquivo,"%d. %s (Score influencia: %.2f) (Score influenciado: %.2f)\n", i+1, cop[i].nome, cop[i].influencia, cop[i].influenciado);
     }
     fprintf(arquivo, "--- TOP 3 MAIS INFLUENTES ---\n");
     int limit = (rede->qtdPessoas < 3) ? rede->qtdPessoas : 3;
@@ -162,7 +162,7 @@ RedeSocial* carregarRedeDeArquivo(char *nomeArquivo) {
   
     int qtdPessoas;
     fscanf(arquivo, "%d", &qtdPessoas); 
-    RedeSocial *rede = criarRede(qtdPessoas, qtdPessoas * 2);
+    RedeSocial *rede = criaRede(qtdPessoas, qtdPessoas * 2);
 
     char nomeTemp[100];
     int idadeTemp;

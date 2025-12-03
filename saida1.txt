@@ -1,0 +1,19 @@
+=== RELATORIO DE INFLUENCIA ===
+
+1. Alice (Score influencia: 4.62) (Score influenciado: 1.20)
+2. Bruno (Score influencia: 4.20) (Score influenciado: 0.75)
+3. Carla (Score influencia: 3.90) (Score influenciado: 1.50)
+4. Elisa (Score influencia: 2.82) (Score influenciado: 1.60)
+5. Diego (Score influencia: 2.58) (Score influenciado: 1.85)
+6. Felipe (Score influencia: 1.83) (Score influenciado: 4.17)
+7. Gabi (Score influencia: 1.56) (Score influenciado: 2.56)
+8. Joao (Score influencia: 1.40) (Score influenciado: 2.93)
+9. Hugo (Score influencia: 0.22) (Score influenciado: 2.06)
+10. Ines (Score influencia: 0.15) (Score influenciado: 4.66)
+--- TOP 3 MAIS INFLUENTES ---
+1. Alice (Score: 4.62)
+2. Bruno (Score: 4.20)
+3. Carla (Score: 3.90)
+
+--- PESSOA MENOS INFLUENCIAVEL ---
+Nome: Bruno (Score Recebido: 0.75)
